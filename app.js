@@ -101,6 +101,6 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(8080, () => {
-  console.log("server is running at 8080");
+server.listen(4040, () => {
+  console.log("server is running at 4040");
 });
