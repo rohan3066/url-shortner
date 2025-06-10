@@ -101,6 +101,6 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(4040, () => {
+server.listen(4040 || 3000, () => {
   console.log("server is running at 4040");
 });
